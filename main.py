@@ -3,8 +3,6 @@ import os
 import json
 from openai import OpenAI
 
-# 🔑 Make sure you set your API key before running:
-# export OPENAI_API_KEY="your_api_key_here"
 client = OpenAI()
 
 story_state = {
